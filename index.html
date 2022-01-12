@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/4c4bceee1c.js" crossorigin="anonymous"></script>
+    <title>Lucía Castro - Full Stack Developer</title>
+</head>
+<body>
+    <nav class="navBar">
+        <div>
+            <a href="./index.html"><img class="logo" src="./assets/logo.png" alt="Logo de Lucía Castro"></a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="boton-menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="menu-bar">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#proyects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="header-text">
+            <div class="header-title">
+                <h1>Lucía Castro</h1>
+                <h2>Full Stack Developer</h2>
+            </div>
+            <a href="./Assets/CV-Lucía_Castro.pdf" target="_BLANK"> Mi CV </a>
+        </div>
+        <div class="header-video">
+            <video autoplay muted loop>
+                <source src="./Assets/girl-video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </header>
+
+    <section class="carousel reveal" id="proyects">
+        <div>
+            <h2>Mis proyectos</h2>
+        </div>
+        <div class="carousel-proyects ">
+            <button class="carousel-button previous" id="previous"><i class="fas fa-caret-square-left"></i></button>
+            <div class="carousel-images">
+                <div>
+                    <img src="./Assets/proyect_vivero.png" alt="Proyect Vivero Edén">
+                    <div class="carousel-item">
+                        <a href="https://vercel.com/lucastro95/vivero-eden/2YEPZV82btkxf4BCtHmv74fbzGy4" target="_blank">Vercel</a>
+                        <a href="https://github.com/lucastro95/viveroEden" target="_blank">Github</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./Assets/proyect_heladeria.png" alt="Proyect Heladería Arcoiris">
+                    <div class="carousel-item">
+                        <a href="https://vercel.com/lucastro95/helados-arcoiris/AnSNZ6ZHzteUfQe6d8uZS3bU8YFY" target="_blank">Vercel</a>
+                        <a href="https://github.com/lucastro95/helados_arcoiris" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button next" id="next"><i class="fas fa-caret-square-right"></i></button>
+        </div>
+    </section>
+
+    <section class="contact reveal" id="contact">
+        <div>
+            <h2>Contacto</h2>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/luciacastro2108/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/lucastro95" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:castrolucia2108@gmail.com" target="_BLANK"><i class="fas fa-envelope"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+54 9 294 460-2852" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+        </div>
+    </section>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
